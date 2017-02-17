@@ -12,5 +12,21 @@
     tools:context="com.cii.macysdcardreader.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
+    <Button
+        android:id="@+id/scan_sd_button"
+        android:theme="@style/MyRaisedButton"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="108dp"
+        />
 
 </RelativeLayout>
+
